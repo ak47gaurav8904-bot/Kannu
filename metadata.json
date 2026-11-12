@@ -1,0 +1,8 @@
+{
+  "name": "iTube",
+  "description": "Native media and video streaming player applet",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

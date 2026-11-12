@@ -1,0 +1,80 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <!-- Background card with dark cinema gradient -->
+    <path
+        android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:color="#FF0D1117" android:offset="0.0" />
+                <item android:color="#FF161B22" android:offset="0.5" />
+                <item android:color="#FF080B10" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle accent glow circle in center -->
+    <path
+        android:pathData="M160,90m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="160"
+                android:centerY="90"
+                android:gradientRadius="70"
+                android:type="radial">
+                <item android:color="#33FF0000" android:offset="0.0" />
+                <item android:color="#00FF0000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- TV Streaming Screen Icon / Tube shape -->
+    <path
+        android:fillColor="#FFE50914"
+        android:pathData="M125,55 h70 c10,0 18,8 18,18 v34 c0,10 -8,18 -18,18 h-70 c-10,0 -18,-8 -18,-18 v-34 c0,-10 8,-18 18,-18 Z" />
+
+    <!-- Play triangle inside Tube shape -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M152,75 L174,90 L152,105 Z" />
+
+    <!-- iTube Text Branding -->
+    <!-- 'i' dot -->
+    <path
+        android:fillColor="#FFFF0000"
+        android:pathData="M122,140 h6 v6 h-6 z" />
+    <!-- 'i' stem -->
+    <path
+        android:fillColor="#FFFF0000"
+        android:pathData="M122,148 h6 v14 h-6 z" />
+
+    <!-- 'T' -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M134,140 h18 v5 h-6 v17 h-6 v-17 h-6 z" />
+
+    <!-- 'u' -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M158,148 h5 v9 c0,3 2,5 5,5 c3,0 5,-2 5,-5 v-9 h5 v14 h-5 v-2 c-2,2 -4,3 -7,3 c-5,0 -8,-3 -8,-8 z" />
+
+    <!-- 'b' -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M180,140 h5 v8 c2,-2 4,-3 7,-3 c6,0 9,4 9,9 c0,6 -4,9 -9,9 c-3,0 -5,-1 -7,-3 v2 h-5 z M185,154 c0,3 2,5 5,5 c3,0 5,-2 5,-5 c0,-3 -2,-5 -5,-5 c-3,0 -5,2 -5,5 z" />
+
+    <!-- 'e' -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M205,155 h18 c-1,-5 -4,-8 -9,-8 c-6,0 -9,4 -9,9 c0,5 4,9 10,9 c4,0 7,-2 8,-4 l-4,-2 c-1,1 -3,2 -5,2 c-4,0 -5,-3 -5,-4 z M205,152 c1,-3 3,-5 5,-5 c3,0 4,2 4,5 z" />
+
+</vector>
